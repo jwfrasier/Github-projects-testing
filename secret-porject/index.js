@@ -19,17 +19,24 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
-app.post('/andrea', (req, res) => {
-    res.send('Andrea')
-})
 app.get('/stacy', (req, res) => {
     res.send("It's Me!!!!")
 })
+
+app.get('/carlos', (req, res) => {
+    res.send('gaming shoes on')
+})
+
+app.get('/stacy', (req, res) => {
+    res.send("It's Me!!!!")
+})
+
 app.get('/amanda', (req, res) => {
     res.send('Hello World!')
 })
-app.get('/carlos', (req, res) => {
-    res.send('gaming shoes on')
+
+app.get('/rahmin', (req, res) => {
+    res.send('goodbye World!')
 })
 
 app.get('/blake', (req, res) => {
