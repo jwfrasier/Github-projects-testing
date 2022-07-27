@@ -13,6 +13,7 @@ const west = "west";
 const blake = "blake";
 const Carlos = "CsilvaD99";
 const Carlos2 = "asdf";
+const violet = "hmmm";
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
