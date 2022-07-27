@@ -19,6 +19,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+app.get('/rahmin', (req, res) => {
+  res.send('goodbye World!');
+});
+
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });
