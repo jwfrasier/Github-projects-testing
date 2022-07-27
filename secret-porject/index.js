@@ -27,6 +27,10 @@ app.get("/stacy", (req, res) => {
   res.send("It's Me!!!!");
 });
 
+app.get("/amanda", (req, res) => {
+  res.send("Hello World!");
+});
+
 app.get("/blake", (req, res) => {
   res.send("It's Me!!!!");
 });
