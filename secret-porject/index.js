@@ -19,14 +19,9 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/stacy", (req, res) => {
-  res.send("It's Me!!!!");
-});
-
 app.get("/carlos", (req, res) => {
   res.send("gaming shoes on");
 });
-
 app.get("/west", (req, res) => {
   res.send("west");
 });
@@ -39,6 +34,9 @@ app.get("/amanda", (req, res) => {
   res.send("Hello World!");
 });
 
+app.get("/jason", (req, res) => {
+  res.send("Hello from Jason!");
+});
 app.get("/rahmin", (req, res) => {
   res.send("goodbye World!");
 });
@@ -49,6 +47,10 @@ app.get("/blake", (req, res) => {
 
 app.get("/olivia", (req, res) => {
   res.send("Winnie is the best dog ever.");
+});
+
+app.post("/andrea", (req, res) => {
+  res.send("Andrea");
 });
 
 app.listen(PORT, () => {
