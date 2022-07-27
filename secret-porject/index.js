@@ -14,6 +14,20 @@ const blake = 'blake'
 const Carlos = 'CsilvaD99'
 const Carlos2 = 'asdf'
 const violet = 'hmmm'
+const express = require("express");
+
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
+app.destroy('/Ethan', (req, res) => {
+  res.send('Mojoe joejoe');
+})
+
+pp.post('/andrea', (req, res) => {
+    res.send('Andrea')
+})
+
 
 app.post('/andrea', (req, res) => {
     res.send('Andrea')
