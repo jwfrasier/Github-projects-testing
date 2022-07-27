@@ -28,6 +28,9 @@ app.get('/stacy', (req, res) => {
 app.get('/amanda', (req, res) => {
     res.send('Hello World!')
 })
+app.get('/carlos', (req, res) => {
+    res.send('gaming shoes on')
+})
 
 app.get('/blake', (req, res) => {
     res.send("It's Me!!!!")
