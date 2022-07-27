@@ -27,11 +27,6 @@ pp.post('/andrea', (req, res) => {
     res.send('Andrea')
 })
 
-
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
-
 app.get('/carlos', (req, res) => {
     res.send('gaming shoes on')
 })
