@@ -1,7 +1,6 @@
 // make a node app with express and a route that takes in a name and returns a greeting
 
-const express = require("express");
-const app = express();
+const express = require('express');
 const PORT = process.env.PORT || 3000;
 const amanda = "this is interesting";
 const Ethan = "I wish I was at ucchi";
@@ -15,9 +14,10 @@ const blake = "blake";
 const Carlos = "CsilvaD99";
 const Carlos2 = "asdf";
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
+app.get('/', (req, res) => {
+  res.send('Hello World!');
 });
+
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });
