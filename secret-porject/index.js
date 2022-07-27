@@ -7,6 +7,9 @@ const joe = 'joe';
 const Andrea = 'y no work';
 const Rahmin2 =
   'this the second one idk if this gonna work or not but yolo amirite?';
+
+const west = 'west';
+
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
