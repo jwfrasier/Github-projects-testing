@@ -3,6 +3,13 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
+const Ethan = "I wish I was at ucchi";
+const Stacy = "Howdy Howdy";
+const joe = "joe";
+const Andrea = "y no work";
+const winnie = "best dog in the world";
+const west = "west";
+const blake = "blake";
 const jason = "does this work?"
 const Ethan = "I wish I was at ucchi"
 const Stacy = "Howdy Howdy";
