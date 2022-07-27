@@ -19,6 +19,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+app.get('/violet', (req, res) => {
+  res.send('Hello Violet!');
+});
+
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });
