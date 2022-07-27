@@ -18,8 +18,12 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/olivia", (req, res) => {
-  res.send("Winnie is the best dog ever!");
+app.get("/amanda", (req, res) => {
+  res.send("Hello World!");
+});
+
+app.get("/blake", (req, res) => {
+  res.send("It's Me!!!!");
 });
 
 app.listen(PORT, () => {
