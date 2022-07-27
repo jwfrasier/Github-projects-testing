@@ -23,6 +23,10 @@ app.get("/carlos", (req, res) => {
   res.send("gaming shoes on");
 });
 
+app.get("/stacy", (req, res) => {
+  res.send("It's Me!!!!");
+});
+
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });
