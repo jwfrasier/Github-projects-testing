@@ -3,7 +3,7 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+const Ethan = "I wish I was at ucchi"
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
