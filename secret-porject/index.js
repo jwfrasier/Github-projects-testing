@@ -38,6 +38,9 @@ app.get('/amanda', (req, res) => {
     res.send('Hello World!')
 })
 
+app.get('/jason', (req, res) => {
+  res.send('Hello from Jason!');
+});
 app.get('/rahmin', (req, res) => {
     res.send('goodbye World!')
 })
