@@ -21,8 +21,43 @@ app.get("/", (req, res) => {
 
 app.destroy('/Ethan', (req, res) => {
   res.send('Mojoe joejoe');
+})
+
+pp.post('/andrea', (req, res) => {
+    res.send('Andrea')
+})
+
+
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+
+app.get('/carlos', (req, res) => {
+    res.send('gaming shoes on')
+})
+app.get('/west', (req, res) => {
+    res.send('west')
+})
+
+app.get('/stacy', (req, res) => {
+    res.send("It's Me!!!!")
+})
+
+app.get('/amanda', (req, res) => {
+    res.send('Hello World!')
+})
+
+app.get('/jason', (req, res) => {
+  res.send('Hello from Jason!');
 });
+app.get('/rahmin', (req, res) => {
+    res.send('goodbye World!')
+})
+
+app.get('/blake', (req, res) => {
+    res.send("It's Me!!!!")
+})
 
 app.listen(PORT, () => {
-  console.log(`listening on port ${PORT}`);
-});
+    console.log(`listening on port ${PORT}`)
+})
