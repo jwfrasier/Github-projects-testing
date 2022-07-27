@@ -1,5 +1,8 @@
 // make a node app with express and a route that takes in a name and returns a greeting
 
+app.post('/andrea', (req, res) => {
+    res.send('Andrea')
+})
 const express = require('express')
 const PORT = process.env.PORT || 3000
 const amanda = 'this is interesting'
