@@ -34,8 +34,8 @@ app.post('/andrea', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
-})
+  res.send('Hello World!');
+});
 
 app.get('/carlos', (req, res) => {
     res.send('gaming shoes on')
@@ -52,6 +52,9 @@ app.get('/amanda', (req, res) => {
     res.send('Hello World!')
 })
 
+app.get('/violet', (req, res) => {
+  res.send('Hello Violet!');
+  
 app.get('/jason', (req, res) => {
   res.send('Hello from Jason!');
 });
