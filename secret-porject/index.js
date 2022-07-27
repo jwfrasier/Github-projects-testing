@@ -22,12 +22,15 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
-app.get('/stacy', (req, res) => {
-    res.send("It's Me!!!!")
-})
-
 app.get('/carlos', (req, res) => {
     res.send('gaming shoes on')
+})
+app.get('/west', (req, res) => {
+    res.send('west')
+})
+
+app.get('/stacy', (req, res) => {
+    res.send("It's Me!!!!")
 })
 
 app.get('/amanda', (req, res) => {
