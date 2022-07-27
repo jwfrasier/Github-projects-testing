@@ -9,6 +9,10 @@ const blake = "blake";
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
+
+app.get("/blake", (req, res) => {
+  res.send("My name is Blake");
+});
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });
